@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+testem.log
+local.log
+.*swp
+browserstack.err
+browserstack-local.pid
