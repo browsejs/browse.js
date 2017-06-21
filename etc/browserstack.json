@@ -1,0 +1,22 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "{conf}",
+      "screenshots": true,
+      "video": true,
+      "timeout": 150
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "windows-phone",
+      "screenshots": true,
+      "timeout": 150
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "Windows Phone",
+          "osVersion": "8.1",
+          "browser": "IE Mobile",
+          "browserVersion": null,
+          "device": "Nokia Lumia 520"
+        },
+        {
+          "os": "Windows Phone",
+          "osVersion": "8.1",
+          "browser": "IE Mobile",
+          "browserVersion": null,
+          "device": "Nokia Lumia 630"
+        },
+        {
+          "os": "Windows Phone",
+          "osVersion": "8.1",
+          "browser": "IE Mobile",
+          "browserVersion": null,
+          "device": "Nokia Lumia 930"
+        }
+      ]
+    }
+  }
+}

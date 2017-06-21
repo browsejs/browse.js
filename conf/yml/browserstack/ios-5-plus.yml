@@ -1,0 +1,25 @@
+BrowserStack:
+  JS:
+    iOS:
+      "5.0":
+        iPad 2 (5.0):
+      "5.1":
+        iPad 3rd, iPhone 4S:
+      "6.0":
+        iPad 3rd (6.0), iPhone 4S (6.0), iPhone 5:
+      "7.0":
+        iPad 4th, iPad Mini, iPhone 5S:
+      "8.3":
+        iPad Air, iPad Mini 2, iPhone 6, iPhone 6 Plus:
+      "9.3":
+        iPad Air 2, iPad Mini 4, iPad Pro, iPhone 6S, iPhone 6S Plus:
+      "10.3":
+        iPad Pro (9.7 inch), iPhone SE:
+        iPhone 7, iPhone 7 Plus:
+          isPhysicalDevice: true
+      "11.0":
+        iPad 5th, iPhone 8, iPhone 8 Plus, iPhone X:
+          isPhysicalDevice: true
+      "11.2":
+        iPad Pro, iPhone SE:
+          isPhysicalDevice: true

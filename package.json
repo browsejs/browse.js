@@ -1,0 +1,52 @@
+{
+  "name": "browse.js",
+  "version": "0.1.0",
+  "description": "Lightweight library of abstractions for cross-browser compatibility",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "coveralls": "^3.0.0",
+    "cross-browser-tests-runner": "^1.2.3",
+    "eslint": "^4.14.0",
+    "istanbul": "^0.4.5",
+    "js-beautify": "^1.7.5",
+    "multer": "^1.3.0",
+    "request": "^2.83.0",
+    "uglify-js": "^3.3.10",
+    "xml": "^1.0.1"
+  },
+  "scripts": {
+    "js": "node ./scripts/build.js",
+    "test-js": "cat tests/js/utils.js tests/js/scrollY.js `cat tests/js/jasmine/.order` > tests/js/jasmine/__all__.js",
+    "instrument": "./node_modules/.bin/istanbul instrument browse.js > browse.inst.js",
+    "lint": "./node_modules/.bin/eslint ./browse.js",
+    "test-server": "./tests/server/server.js",
+    "functional-tests": "./node_modules/.bin/cbtr-server --native-runner --errors-only --omit-traces --error-reports-only --omit-report-traces --config conf/json/$SYS/$SET.json",
+    "test": "npm run lint && npm run functional-tests; echo 1",
+    "coverage-report": "./node_modules/.bin/istanbul report --root coverage",
+    "coveralls-upload": "cat coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "coverage": "npm run coverage-report && npm run coveralls-upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browsejs/browse.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "cross-browser",
+    "browser-compatibility",
+    "dom-abstraction",
+    "dom-manipulation",
+    "ajax"
+  ],
+  "author": "Reetesh Ranjan <reeteshranjan@piaxis.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/browsejs/browse.js/issues"
+  },
+  "homepage": "https://github.com/browsejs/browse.js#readme"
+}

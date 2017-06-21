@@ -1,23 +1,35 @@
-language: javascript
+language: node_js
 
-node:
-  - 6.10.2
-
-install:
-  - npm install browserstack-runner request && cp ./tests/cross-browser/browserstack/browserstack-runner/changed-copies/lib/config.js node_modules/browserstack-runner/lib/
+node_js:
+  - "8"
 
 env:
-  - BROWSERSTACK_BUILD=`./tests/scripts/get-build-no.sh`
+  - SET=android-1-2 SYS=browserstack
+  - SET=android-4 SYS=browserstack
+  - SET=chrome SYS=browserstack
+  - SET=edge SYS=browserstack
+  - SET=firefox SYS=browserstack
+  - SET=internet-explorer SYS=browserstack
+  - SET=ios-3-4 SYS=browserstack
+  - SET=ios-5-plus SYS=browserstack
+  - SET=opera SYS=browserstack
+  - SET=safari SYS=browserstack
+  - SET=windows-phone SYS=browserstack
+  - SET=yandex SYS=browserstack
 
-script:
-  - ./tests/cross-browser/browserstack/browserstack-runner/run.js ./tests/cross-browser/browserstack/browserstack-runner/conf/browserstack-travis.json
+before_script:
+  - ./node_modules/.bin/cbtr-browserstack-update
+  - npm run instrument
+  - npm run test-js
+  - npm run test-server > ~/.bjs.test-server.log 2>&1 &
 
-branches:
-  only:
-  - master
+after_script:
+  - npm run coverage
+
+cache:
+  directories:
+    - "node_modules"
 
 addons:
-  browserstack:
-    username: reeteshranjan1
-    access_key:
-      secure: d1aMCXejEfO9E/ZP2RZsrxUkXMJqzt+dgqPrdmlt1seKrx07SuvdtrTsUYuj2EKsEFSQt7tbb1+e5gIKLH/D59EtYBGgVUi7ngrNEZuZtRAvgyT3mTIMyjFWh8UYwkr5Bz9aGpIPrdhnHM2qfxlmmx6uiYxv6SHNVtfZqHbwgs0Ixr+AHS4zjWQoRY/uHPexzmYD9/NUos8jIn5+rNSsW2mDFtqFdgoqbLXC0YLg/38glLdJLZS8Bx9veaGp8v++hRa7DnF0n4REVIE0MuS2/BHqXN/NXNvgOT5cuQ4oON+iHfOa3S80AOaBjv+slaU+gCSsbHK5FJbMX/kzzoTlRmKMO9fjrw+iMgowJUDmX0ii8KdzooorH7tcF+7QOKwlFPqBgiB+M8KqBBzZwqbbwzafqBksh+8tY/nTzbag5OiUEKr0QzZWc3AuTO3VCCm88jMcsGVf+GrQmlIGwxTteZx3Ss9RhAHWWLACrENn9JufwtJrw2ESYyUuhbj5bRbOI0BOfLUbx/pnYnVedbOx/sPOJZpNjU1/RX0oplDCJNh30RSMFyAit9io1hG0Ko7Q+EukfoUwtOtItf13pAX1QZ+EBUxZARYRPEmiu0bF7t7GneHsDxFmDVRj8NKTKOEldM1dhhNGhRNIa3H8o8qJWVNkn7rqFLlmKNYvNYsGDoI=
+  hosts:
+    - build.browsejs.org

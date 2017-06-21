@@ -1,0 +1,37 @@
+BrowserStack:
+  JS:
+    OS X:
+      Mountain Lion:
+        Yandex:
+          "14.12":
+      Mavericks:
+        Yandex:
+          "14.12":
+      Yosemite:
+        Yandex:
+          "14.12":
+      El Capitan:
+        Yandex:
+          "14.12":
+      Sierra:
+        Yandex:
+          "14.12":
+      High Sierra:
+        Yandex:
+          "14.12":
+    Windows:
+      XP:
+        Yandex:
+          "14.12":
+      "7":
+        Yandex:
+          "14.12":
+      "8":
+        Yandex:
+          "14.12":
+      "8.1":
+        Yandex:
+          "14.12":
+      "10":
+        Yandex:
+          "14.12":

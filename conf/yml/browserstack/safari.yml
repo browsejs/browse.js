@@ -1,0 +1,43 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Safari:
+          "4.0-5.0, 5.1":
+      Lion:
+        Safari:
+          "5.1, 6.0":
+      Mountain Lion:
+        Safari:
+          "6.2":
+      Mavericks:
+        Safari:
+          "7.1":
+      Yosemite:
+        Safari:
+          "8.0":
+      El Capitan:
+        Safari:
+          "9.1":
+      Sierra:
+        Safari:
+          "10.1":
+      High Sierra:
+        Safari:
+          "11.0":
+    Windows:
+      XP:
+        Safari:
+          "4.0-5.0, 5.1":
+      "7":
+        Safari:
+          "4.0-5.0, 5.1":
+      "8":
+        Safari:
+          "5.1":
+      "8.1":
+        Safari:
+          "5.1":
+      "10":
+        Safari:
+          "5.1":

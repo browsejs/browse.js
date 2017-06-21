@@ -1,9 +1,0 @@
-{
-    "test_framework": "jasmine",
-    "timeout": 200,
-    "test_path": "tests/html/tests.html",
-    "browsers": [ 
-        {"os":"ios","os_version":"3.0","browser":"Mobile Safari","device":"iPhone 3GS","browser_version":null},
-        {"os":"ios","os_version":"3.2","browser":"Mobile Safari","device":"iPad","browser_version":null}
-    ]
-}

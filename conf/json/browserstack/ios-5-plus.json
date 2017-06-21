@@ -1,0 +1,232 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "ios-5-plus",
+      "screenshots": true,
+      "video": true,
+      "timeout": 360
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "iOS",
+          "osVersion": "5.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 2 (5.0)"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "5.1",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 3rd"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "5.1",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 4S"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 3rd (6.0)"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 4S (6.0)"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "6.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 5"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 4th"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Mini"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "7.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 5S"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Air"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Mini 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "8.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6 Plus"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Air 2"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Mini 4"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Pro"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6S"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "9.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 6S Plus"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Pro (9.7 inch)"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone SE"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 7",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "10.3",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 7 Plus",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 5th",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 8",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 8 Plus",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone X",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad Pro",
+          "isPhysicalDevice": true
+        },
+        {
+          "os": "iOS",
+          "osVersion": "11.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone SE",
+          "isPhysicalDevice": true
+        }
+      ]
+    }
+  }
+}

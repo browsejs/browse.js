@@ -1,0 +1,43 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Chrome:
+          "19.0-22.0":
+      Lion:
+        Chrome:
+          "23.0-26.0":
+      Mountain Lion:
+        Chrome:
+          "31.0-34.0":
+      Mavericks:
+        Chrome:
+          "39.0-42.0":
+      Yosemite:
+        Chrome:
+          "43.0-46.0":
+      El Capitan:
+        Chrome:
+          "51.0-44.0":
+      Sierra:
+        Chrome:
+          "55.0-58.0":
+      High Sierra:
+        Chrome:
+          "62.0-64.0":
+    Windows:
+      XP:
+        Chrome:
+          "15.0-18.0":
+      "7":
+        Chrome:
+          "27.0-30.0":
+      "8":
+        Chrome:
+          "35.0-38.0":
+      "8.1":
+        Chrome:
+          "47.0-50.0":
+      "10":
+        Chrome:
+          "59.0-61.0":

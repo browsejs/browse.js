@@ -1,0 +1,9 @@
+filter:
+  excluded_paths:
+    - conf/
+    - docs/
+    - etc/
+    - scripts/
+    - tests/
+    - browse.js
+    - browse.min.js

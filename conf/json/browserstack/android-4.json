@@ -1,0 +1,98 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "android-4",
+      "screenshots": true,
+      "video": true,
+      "timeout": 360
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC One X"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Motorola Razr"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Note 10.1"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Tab 2 10.1"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.0",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Sony Xperia Tipo"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 7"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Note 2"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.1",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S3"
+        },
+        {
+          "os": "Android",
+          "osVersion": "4.2",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Google Nexus 4"
+        }
+      ]
+    }
+  }
+}

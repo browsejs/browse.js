@@ -1,0 +1,43 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Opera:
+          "15.0-18.0":
+      Lion:
+        Opera:
+          "19.0-22.0":
+      Mountain Lion:
+        Opera:
+          "23.0-26.0":
+      Mavericks:
+        Opera:
+          "27.0-30.0":
+      Yosemite:
+        Opera:
+          "33.0-35.0":
+      El Capitan:
+        Opera:
+          "39.0-41.0":
+      Sierra:
+        Opera:
+          "42.0-44.0":
+      High Sierra:
+        Opera:
+          "48.0-50.0":
+    Windows:
+      "XP":
+        Opera:
+          "10.6, 11.1, 11.5, 11.6":
+      "7":
+        Opera:
+          "12.10, 12.14, 12.15, 12.16":
+      "8":
+        Opera:
+          "12.0, 31.0-32.0":
+      "8.1":
+        Opera:
+          "36.0-38.0":
+      "10":
+        Opera:
+          "45.0-47.0":

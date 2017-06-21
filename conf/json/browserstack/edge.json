@@ -1,0 +1,46 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "edge",
+      "screenshots": true,
+      "video": true,
+      "timeout": 150
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Edge",
+          "browserVersion": "14.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Edge",
+          "browserVersion": "15.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Edge",
+          "browserVersion": "16.0"
+        }
+      ]
+    }
+  }
+}

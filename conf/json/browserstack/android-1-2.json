@@ -1,0 +1,77 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "android-1-2",
+      "screenshots": true,
+      "video": true,
+      "timeout": 600
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "Android",
+          "osVersion": "1.5",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC Hero"
+        },
+        {
+          "os": "Android",
+          "osVersion": "1.6",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Sony Xperia X10"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "HTC Wildfire"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.2",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.3",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Motorola Droid Razr"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.3",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy Note"
+        },
+        {
+          "os": "Android",
+          "osVersion": "2.3",
+          "browser": "Android Browser",
+          "browserVersion": null,
+          "device": "Samsung Galaxy S2"
+        }
+      ]
+    }
+  }
+}

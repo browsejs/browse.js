@@ -1,0 +1,9 @@
+BrowserStack:
+  JS:
+    Android:
+      "4.0":
+        Google Nexus, HTC One X, Motorola Razr, Samsung Galaxy Note 10.1, Samsung Galaxy Tab 2 10.1, Sony Xperia Tipo:
+      "4.1":
+        Google Nexus 7, Samsung Galaxy Note 2, Samsung Galaxy S3:
+      "4.2":
+        Google Nexus 4:

@@ -1,0 +1,56 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "ios-3-4",
+      "screenshots": true,
+      "video": true,
+      "timeout": 600
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "iOS",
+          "osVersion": "3.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 3GS"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "3.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "4.0",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPhone 4"
+        },
+        {
+          "os": "iOS",
+          "osVersion": "4.3.2",
+          "browser": "Mobile Safari",
+          "browserVersion": null,
+          "device": "iPad 2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>cross-browser-tests-runner</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jasmine/1.3.1/jasmine.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jasmine/1.3.1/jasmine-html.js"></script>
+  <script src="/cross-browser-tests-runner.js"></script>
+  <style>
+    .hidden {
+      display:none;
+    }
+  </style>
+  <script>
+    (function() {
+      var jasmineEnv = jasmine.getEnv()
+      jasmineEnv.addReporter(new jasmine.HtmlReporter)
+      window.onload = function() {
+        jasmineEnv.execute()
+      }
+    })()
+  </script>
+  <script src="../../../browse.inst.js"></script>
+  <script src="../../../tests/js/jasmine/__all__.js"></script>
+  <!--script src="../../../tests/js/utils.js"></script>
+  <script src="../../../tests/js/jasmine/browse.js"></script>
+  <script src="../../../tests/js/jasmine/ready.js"></script>
+  <script src="../../../tests/js/jasmine/array.js"></script>
+  <script src="../../../tests/js/jasmine/arrayTypes.js"></script>
+  <script src="../../../tests/js/jasmine/all.js"></script>
+  <script src="../../../tests/js/jasmine/one.js"></script>
+  <script src="../../../tests/js/jasmine/firstChild.js"></script>
+  <script src="../../../tests/js/jasmine/lastChild.js"></script>
+  <script src="../../../tests/js/jasmine/next.js"></script>
+  <script src="../../../tests/js/jasmine/previous.js"></script>
+  <script src="../../../tests/js/jasmine/index.js"></script>
+  <script src="../../../tests/js/jasmine/nthChild.js"></script>
+  <script src="../../../tests/js/jasmine/append.js"></script>
+  <script src="../../../tests/js/jasmine/prepend.js"></script>
+  <script src="../../../tests/js/jasmine/after.js"></script>
+  <script src="../../../tests/js/jasmine/before.js"></script>
+  <script src="../../../tests/js/jasmine/remove.js"></script>
+  <script src="../../../tests/js/jasmine/height.js"></script>
+  <script src="../../../tests/js/jasmine/width.js"></script>
+  <script src="../../../tests/js/jasmine/innerHeight.js"></script>
+  <script src="../../../tests/js/jasmine/innerWidth.js"></script>
+  <script src="../../../tests/js/jasmine/windowHeight.js"></script>
+  <script src="../../../tests/js/jasmine/windowWidth.js"></script>
+  <script src="../../../tests/js/jasmine/getClass.js"></script>
+  <script src="../../../tests/js/jasmine/hasClass.js"></script>
+  <script src="../../../tests/js/jasmine/addClass.js"></script>
+  <script src="../../../tests/js/jasmine/removeClass.js"></script>
+  <script src="../../../tests/js/jasmine/style.js"></script>
+  <script src="../../../tests/js/jasmine/topLeft.js"></script>
+  <script src="../../../tests/js/jasmine/opacity.js"></script>
+  <script src="../../../tests/js/jasmine/display.js"></script>
+  <script src="../../../tests/js/jasmine/value.js"></script>
+  <script src="../../../tests/js/jasmine/trigger.js"></script>
+  <script src="../../../tests/js/jasmine/onclick.js"></script>
+  <script src="../../../tests/js/jasmine/onkeyup.js"></script>
+  <script src="../../../tests/js/jasmine/onchange.js"></script>
+  <script src="../../../tests/js/jasmine/fadeIn.js"></script>
+  <script src="../../../tests/js/jasmine/fadeOut.js"></script>
+  <script src="../../../tests/js/jasmine/scrollY.js"></script>
+  <script src="../../../tests/js/jasmine/ajax.js"></script>
+  <script src="../../../tests/js/scrollY.js"></script-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasmine/1.3.1/jasmine.css">
+</head>
+<body>
+  <div id="jasmine_content"></div>
+</body>
+</html>

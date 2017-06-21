@@ -1,0 +1,11 @@
+BrowserStack:
+  JS:
+    Android:
+      "1.5":
+        HTC Hero:
+      "1.6":
+        Sony Xperia X10:
+      "2.2":
+        HTC Wildfire, Samsung Galaxy S:
+      "2.3":
+        Motorola Droid Razr, Samsung Galaxy Note, Samsung Galaxy S2:

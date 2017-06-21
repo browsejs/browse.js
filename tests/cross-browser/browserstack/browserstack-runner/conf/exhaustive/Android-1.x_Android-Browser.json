@@ -1,9 +1,0 @@
-{
-    "test_framework": "jasmine",
-    "timeout": 200,
-    "test_path": "tests/html/tests.html",
-    "browsers": [ 
-        {"os":"android","os_version":"1.5","browser":"Android Browser","device":"HTC Hero","browser_version":null},
-        {"os":"android","os_version":"1.6","browser":"Android Browser","device":"Sony Xperia X10","browser_version":null}
-    ]
-}

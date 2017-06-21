@@ -1,0 +1,148 @@
+{
+  "test_file": "tests/html/jasmine/tests.html",
+  "framework": "jasmine",
+  "retries": 1,
+  "limit": "4mb",
+  "capabilities": {
+    "BrowserStack": {
+      "local": true,
+      "localIdentifier": "safari",
+      "screenshots": true,
+      "video": true,
+      "timeout": 150
+    }
+  },
+  "parallel": {
+    "BrowserStack": 5
+  },
+  "server": {
+    "port": 8000,
+    "host": "build.browsejs.org"
+  },
+  "browsers": {
+    "BrowserStack": {
+      "JS": [
+        {
+          "os": "OS X",
+          "osVersion": "Snow Leopard",
+          "browser": "Safari",
+          "browserVersion": "4.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Snow Leopard",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Snow Leopard",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Lion",
+          "browser": "Safari",
+          "browserVersion": "6.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mountain Lion",
+          "browser": "Safari",
+          "browserVersion": "6.2"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Mavericks",
+          "browser": "Safari",
+          "browserVersion": "7.1"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Yosemite",
+          "browser": "Safari",
+          "browserVersion": "8.0"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "El Capitan",
+          "browser": "Safari",
+          "browserVersion": "9.1"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "Sierra",
+          "browser": "Safari",
+          "browserVersion": "10.1"
+        },
+        {
+          "os": "OS X",
+          "osVersion": "High Sierra",
+          "browser": "Safari",
+          "browserVersion": "11.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Safari",
+          "browserVersion": "4.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "7",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "10",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP",
+          "browser": "Safari",
+          "browserVersion": "4.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP",
+          "browser": "Safari",
+          "browserVersion": "5.0"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "XP",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        },
+        {
+          "os": "Windows",
+          "osVersion": "8.1",
+          "browser": "Safari",
+          "browserVersion": "5.1"
+        }
+      ]
+    }
+  }
+}

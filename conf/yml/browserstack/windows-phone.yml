@@ -1,0 +1,5 @@
+BrowserStack:
+  JS:
+    Windows Phone:
+      "8.1":
+        Nokia Lumia 520, Nokia Lumia 630, Nokia Lumia 930:

@@ -1,0 +1,18 @@
+BrowserStack:
+  JS:
+    Windows:
+      "XP":
+        Internet Explorer:
+          "6.0-8.0":
+      "7":
+        Internet Explorer:
+          "8.0-11.0":
+      "8":
+        Internet Explorer:
+          "10.0":
+      "8.1":
+        Internet Explorer:
+          "11.0":
+      "10":
+        Internet Explorer:
+          "11.0":

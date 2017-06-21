@@ -1,0 +1,43 @@
+BrowserStack:
+  JS:
+    OS X:
+      Snow Leopard:
+        Firefox:
+          "4.0-8.0":
+      Lion:
+        Firefox:
+          "3.6, 9.0-12.0":
+      Mountain Lion:
+        Firefox:
+          "3.6, 17.0-20.0":
+      Mavericks:
+        Firefox:
+          "23.0-26.0":
+      Yosemite:
+        Firefox:
+          "31.0-34.0":
+      El Capitan:
+        Firefox:
+          "35.0-38.0":
+      Sierra:
+        Firefox:
+          "47.0-50.0":
+      High Sierra:
+        Firefox:
+          "55.0-58.0":
+    Windows:
+      XP:
+        Firefox:
+          "3.0, 13.0-16.0":
+      "7":
+        Firefox:
+          "3.6, 21.0-25.0":
+      "8":
+        Firefox:
+          "27.0-30.0":
+      "8.1":
+        Firefox:
+          "39.0-42.0":
+      "10":
+        Firefox:
+          "51.0-54.0":
